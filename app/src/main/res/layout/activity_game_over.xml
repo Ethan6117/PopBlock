@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameOverActivity"
+    android:orientation="vertical"
+    android:background="@drawable/gameover"
+   >
+
+    <TextView
+        android:id="@+id/textView_level"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="dijiguan"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/textView_score"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="defen"
+        android:layout_above="@+id/button_replay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp"
+        android:textSize="25dp"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/button_replay"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="23dp"
+        android:layout_marginBottom="93dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/resta"/>
+
+</RelativeLayout>
